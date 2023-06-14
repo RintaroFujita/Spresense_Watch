@@ -3,7 +3,7 @@
 volatile uint8_t data[14]; //センサからのデータ格納用配列
 volatile int16_t az = 0;   //出力データ(生値)
 const uint16_t PIN = 1;
-const uint16_t NUM_PIXELS = 1;
+const uint16_t NUM_PIXELS = 40;
 
 int color[3];                     // RGBの値を格納する配列
 float hue = 0.0;                  // 色相（0.0〜1.0）
